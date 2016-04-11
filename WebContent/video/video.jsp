@@ -13,7 +13,7 @@
 		</style>
 	</head>
 	<body>
-		<video width="1000px" height="600px" controls preload="auto">
+		<video width="1000px" height="600px" controls autoplay>
 			<source src="video/s.mp4" type="video/mp4">
 		</video>
 	</body>
