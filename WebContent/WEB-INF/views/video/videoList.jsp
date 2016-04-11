@@ -52,7 +52,7 @@ body {
 				<a href="${pageContext.request.contextPath}/video/toBoFang?id=${video.id }" target="_blank">
 					<figure>
 						<img style="width: 300px; height: 200px; cursor: pointer"
-							alt="${video.videoName}" title="${video.videoName}" src="../image/p.png" /> <figcaption>
+							alt="${video.videoName}" title="${video.videoName}" src="http://img.alinetgo.com${video.photoPath}" /> <figcaption>
 						<h3>${video.videoName}</h3>
 					</figcaption> 
 					</figure>

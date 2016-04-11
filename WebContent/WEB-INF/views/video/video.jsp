@@ -16,7 +16,7 @@
 	</head>
 <body>
 	<video width="1000px" height="600px" controls preload="auto">
-			<source src="${video.videoPath}" type="${video.videoPath}">
+			<source src="http://img.alinetgo.com${video.videoPath}" type="video/mp4">
 	</video>
 </body>
 </html>
