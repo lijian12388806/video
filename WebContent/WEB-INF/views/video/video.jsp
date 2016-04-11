@@ -6,6 +6,7 @@
 		<title>视频播放</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="../../image/icon.png"/>
 		<style type="text/css">
 			body {
 				background-color: black;
