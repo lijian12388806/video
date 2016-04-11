@@ -44,7 +44,8 @@ public class OnlineListener implements HttpSessionListener, ServletContextListen
     		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder
 					.getRequestAttributes()).getRequest();
     		
-    		String ip = request.getRemoteAddr();
+    		//nginx反向代理, 获取用户真实ip
+    		String ip = request.getHeader("X-Real-IP");
     		String location = IP.find(ip);
     		OnlineModel onlineModel = new OnlineModel(sessionId, ip, DateUtils.getDateTimeFormatStr(new Date(), "yyy-MM-dd hh:mm:ss"), location);
     		onlines.put(sessionId, onlineModel);    		
