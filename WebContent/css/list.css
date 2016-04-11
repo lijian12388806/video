@@ -1,0 +1,123 @@
+#clear {clear:both;}
+.container {
+    width:1000px;
+    margin:15px auto;
+    margin-bottom:160px;
+
+}
+
+@media only screen and (max-width: 1024px){
+    .container{
+        width:1060px;
+        min-height: 1200px;
+        /*background:#00c2df;*/
+        position:relative;
+    }
+    .container section{
+        position:absolute;
+        left:0;
+        top:0;
+    }
+}
+
+section{
+    width:1060px;
+    margin:0 auto;
+}
+#nav_evaluation {background: rgb(201, 22, 35);}
+#head{
+    background:#f1f1f1;
+    width:1000px;
+    margin:0 auto;
+    height:50px;
+    line-height:50px;
+    padding-left:12px;
+    font-size:20px;
+    color:#474747;
+}
+.appList{
+    width:1060px;
+    list-style: none;
+    overflow:hidden;
+    padding:18px 0px 0 18px;
+    margin:0 auto;
+}
+.appList li{
+    width:322px;
+    height:268px;
+    background: #ffffff;
+    border:1px solid #ffffff;
+    margin-bottom:30px;
+    margin-right:28px;
+    float:left;
+}
+.appList li a{
+    display: block;
+    width:302px;
+    height:248px;
+    padding:10px 10px 0 10px;
+	text-decoration: none;
+}
+
+.appList li:hover{
+    border-color:#cccccc;
+
+    -webkit-box-shadow: 0 0 5px 3px rgba(228,228,228,1);
+    -moz-box-shadow: 0 0 5px 3px rgba(228,228,228,1);
+    box-shadow: 0 0 5px 3px rgba(228,228,228,1);
+
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.appList li figure{
+    margin:0 auto;
+}
+.appList li figure figcaption{
+    overflow: hidden;
+}
+.appList li figure img{
+    width:100%;
+}
+
+.appList li h3,.appList li span{
+    display:block;
+    font-family: 'Microsoft Yahei';
+    line-height:20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	text-decoration: none;
+}
+.appList li h3{
+    width:150px;
+    font-size:20px;
+    color:#333333;
+}
+.appList li h3:hover{
+    color:#c91623;
+}
+.appList li span{
+    float:right;
+    font-size:16px;
+    color:#999999;
+}
+.appList li em{
+    font-style: normal;
+}
+.page_box{height:38px;margin-top:18px;margin-bottom:160px;border:1px solid #ccc;}
+.page_box{
+	width:998px;
+	height:38px;
+	margin:-10px auto 60px auto; 
+	margin-top:-10px;
+	border:1px solid #ccc;
+}
