@@ -16,8 +16,9 @@
 		</style>
 	</head>
 <body>
-	<video width="1000px" height="600px" controls preload="auto">
+	<video width="1000px" height="600px" controls autoplay>
 			<source src="http://img.alinetgo.com${video.videoPath}" type="video/mp4">
 	</video>
 </body>
+<%@include file="../common/foot.html"%>
 </html>

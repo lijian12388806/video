@@ -72,4 +72,5 @@ body {
 		$(this).tab("show");
 	})
 </script>
+<%@include file="../common/foot.html"%>
 </html>
