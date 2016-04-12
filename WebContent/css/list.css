@@ -36,10 +36,10 @@ section{
     color:#474747;
 }
 .appList{
-    width:1060px;
+    width:53%;
     list-style: none;
     overflow:hidden;
-    padding:18px 0px 0 18px;
+    padding:18px 0px 0px 0px;
     margin:0 auto;
 }
 .appList li{
@@ -48,7 +48,8 @@ section{
     background: #ffffff;
     border:1px solid #ffffff;
     margin-bottom:30px;
-    margin-right:28px;
+    margin-right:14px;
+    margin-left:14px;
     float:left;
 }
 .appList li a{
